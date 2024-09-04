@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<HTMl lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-with, initial scale=1.0">
+    <title>Ecommence Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link 
+    rel="stylesheet" 
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <div id="page" class="site">
+
+        <aside class="site-off desktop-hide">
+            <div class="off-canvas">
+                <div class="canvas-head flexitem">
+                    <div class="logo"><a href="/"><span class="circle"></span>.TrustMarket</a></div> <!--LOGO-->
+                    <a href="#" class="t-close flexcenter"><i class="ri-close-line"></i></a>
+                </div>
+                <div class="departments"></div>
+                <nav></nav>
+                <div class="thetop-nav"></div>
+            </div>
+        </aside>
+
+        <header>
+            <div class="header-top mobile-hide">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left"> <!--super-encabezado izquierda-->
+                            <ul class="flexitem main-links">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Featured Produts</a></li>
+                                <li><a href="#">Wishlist</a></li>
+                            </ul>
+                        </div>
+                        <div class="right"> <!--super-encabezado derecha-->
+                            <ul class="flexitem main-links">
+                                <li><a href="#">Sign Up</a></li>
+                                <li><a href="#">My account</a></li>
+                                <li><a href="#">Order Tracking</a></li>
+                                <li><a href="#">USD <span class="icon-small"><i class="ri-arrow-down-s-line"></i></span></a>
+                                    <ul> <!--cambio de moneda-->
+                                        <li class="current"><a href="#">USD</a></li>
+                                        <li><a href="#">EURO</a></li>
+                                        <li><a href="#">GBP</a></li>
+                                        <li><a href="#">IDR</a></li>
+                                    </ul>
+                                </li> <!--cambio de idioma-->
+                                <li><a href="#">English <span class="icon-small"><i class="ri-arrow-down-s-line"></i></span></a>
+                                    <ul>
+                                        <li class="current"><a href="#">English</a></li>
+                                        <li><a href="#">German</a></li>
+                                        <li><a href="#">Spanish</a></li>
+                                        <li><a href="#">Bahasa</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header-top-->
+
+            <div class="header-nav"> <!--encabezado principal-->
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <a href="#"class="trigger desktop-hide"><span class="i ri-menu-2-line"></span></a>
+                        <div class="left flexitem">
+                            <div class="logo"><a href="/"><span class="circle"></span>.TrustMarket</a></div> <!--LOGO-->
+                            <nav class="mobile-hide">
+                                <ul class="flexitem second-links"> <!--MENU encabezado principal-->
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                    <li class="has-child">
+                                        <a href="#">Women <!--menu con opcion multiple-->
+                                            <div class="icon-small"><i class="ri-arrow-down-s-line"></i></div>
+                                        </a>
+                                        <div class="mega"> <!--opciones de WOMEN-->
+                                            <div class="container">
+                                                <div class="wrapper">
+                                                    <div class="flexcol"> <!--Vestimentas-->
+                                                        <div class="row">
+                                                            <h4>Women's Clothing</h4>
+                                                            <ul>
+                                                                <li><a href="#">Dresses</a></li>
+                                                                <li><a href="#">Tops & Tees</a></li>
+                                                                <li><a href="#">Jackets & coats</a></li>
+                                                                <li><a href="#">Pants & Capris</a></li>
+                                                                <li><a href="#">Sweaters</a></li>
+                                                                <li><a href="#">Costumes</a></li>
+                                                                <li><a href="#">Hooles & Sweatshirts</a></li>
+                                                                <li><a href="#">Pajamas & Robes</a></li>
+                                                                <li><a href="#">Shorts</a></li>
+                                                                <li><a href="#">Swimmear</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol"> <!--Joyeria-->
+                                                        <div class="row">
+                                                            <h4>Jewerly</h4>
+                                                            <ul>
+                                                                <li><a href="#">Accessories</a></li>
+                                                                <li><a href="#">Bags & Purses</a></li>
+                                                                <li><a href="#">Necklaces</a></li>
+                                                                <li><a href="#">Rings</a></li>
+                                                                <li><a href="#">Earlings</a></li>
+                                                                <li><a href="#">Bracelets</a></li>
+                                                                <li><a href="#">Body Jewerly</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol"><!--Belleza-->
+                                                        <div class="row">
+                                                            <h4>Beauty</h4>
+                                                            <ul>
+                                                                <li><a href="#">Bath Accessories</a></li>
+                                                                <li><a href="#">Makeup &Cosetics</a></li>
+                                                                <li><a href="#">Skin Care</a></li>
+                                                                <li><a href="#">Hair Care</a></li>
+                                                                <li><a href="#">Essential</a></li>
+                                                                <li><a href="#">Fragrances</a></li>
+                                                                <li><a href="#">Soaps & Bath Bombs</a></li>
+                                                                <li><a href="#">Face Masks & Coverings</a></li>
+                                                                <li><a href="#">Spa Kits & Gifts</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol"> <!--Marcas para mujer-->
+                                                        <div class="row">
+                                                            <h4>Top Brands</h4>
+                                                            <ul class="women-brands">
+                                                                <li><a href="#">Nike</a></li>
+                                                                <li><a href="#">Louis Vuitton</a></li>
+                                                                <li><a href="#">Hermes</a></li>
+                                                                <li><a href="#">Gucci</a></li>
+                                                                <li><a href="#">Zalando</a></li>
+                                                                <li><a href="#">Tiffany & Co.</a></li>
+                                                                <li><a href="#">Zara</a></li>
+                                                                <li><a href="#">H&M</a></li>
+                                                                <li><a href="#">Cartier</a></li>
+                                                                <li><a href="#">Channel</a></li>
+                                                                <li><a href="#">Hurley</a></li>
+                                                            </ul>
+                                                            <a href="#" class="view-all">View all brands <i class="ri-arrow-right-line"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol products"> <!--imagen dentro de: women-->
+                                                        <div class="row">
+                                                            <div class="media">
+                                                                <div class="thumbnail object-cover">
+                                                                    <a href="#">
+                                                                        <img src="products/apparel4.jpg" alt="">
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="text-content"> <!--boton de ordena ya-->
+                                                                <h4>Most Wanted</h4>
+                                                                <a href="#" class="primary-button">Order Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Men</a></li>
+                                    <li>
+                                        <a href="#">Sports
+                                            <div class="fly-item"><span>New!</span></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="right">
+                            <ul class="flexitem second-links">
+                                <li class="mobile-hide"><a href="#"> <!--icono de corazon-->
+                                    <div class="icon-large"><i class="ri-heart-line"></i></div>
+                                    <div class="fly-item"><span class="item-number">0</span></div>
+                                </a></li>
+                                <li><a href="#" class="iscart"> <!--icono de carrito-->
+                                    <div class="icon-large">
+                                        <i class="ri-shopping-cart-line"></i>
+                                        <div class="fly-item"><span class="item-number">0</span></div>
+                                    </div> <!--logo del carrito, con el precio-->
+                                    <div class="icon-text">
+                                        <div class="mini-text">Total</div>
+                                        <div class="cart-total">$0.00</div>
+                                    </div>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header-nav-->
+<!--no hay nada en esta linea-->
+            <div class="header-main mobile-hide"> <!--barra menu vertical-->
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left"> <!--barra vetical izquierda en rojo-->
+                            <div class="dpt-cat">
+                                <div class="dpt-head">
+                                    <div class="main-text">All Departments</div>
+                                    <div class="mini-text mobile-hide">Total 1059 Products</div>
+                                    <a href="" class="dpt-trigger mobile-hide">
+                                        <i class="ri-menu-3-line ri-xl"></i>
+                                    </a>
+                                </div>
+                                <div class="dpt-menu"> <!--menus dentro de barra vertical rojo-->
+                                    <ul class="second-links">
+                                        <li class="has-child beauty"> <!--1-->
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-bear-smile-line"></i></div>
+                                                Beauty
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul> <!--sub menus 1.1-->
+                                                <li><a href="#">Makeup</a></li>
+                                                <li><a href="#">Skin Care</a></li>
+                                                <li><a href="#">Hair Care</a></li>
+                                                <li><a href="#">Fragrance</a></li>
+                                                <li><a href="#">Foot & Hand Care</a></li>
+                                                <li><a href="#">Tools & Accesories</a></li>
+                                                <li><a href="#">Shave & Hair Removal</a></li>
+                                                <li><a href="#">Personal Care</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-child electric"> <!--2-->
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-bluetooth-connect-line"></i></div>
+                                                Electronic
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul> <!--sub menus 2.1-->
+                                                <li><a href="#">Camera</a></li>
+                                                <li><a href="#">Cell Phones</a></li>
+                                                <li><a href="#">Computers</a></li>
+                                                <li><a href="#">GPS & Navigation</a></li>
+                                                <li><a href="#">Headphones</a></li>
+                                                <li><a href="#">Home Audio</a></li>
+                                                <li><a href="#">Television</a></li>
+                                                <li><a href="#">Video Projectors</a></li>
+                                                <li><a href="#">Wearable Technology</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-child fashion"> <!--3-->
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-t-shirt-air-line"></i></div>
+                                                Women's Fashion
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul> <!--sub menus 3.1-->
+                                                <li><a href="#">Clothing</a></li>
+                                                <li><a href="#">Shoes</a></li>
+                                                <li><a href="#">Jewerly</a></li>
+                                                <li><a href="#">Watches</a></li>
+                                                <li><a href="#">Handbags</a></li>
+                                                <li><a href="#">Accesories</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-child fashion"> <!--5-->
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-shirt-line"></i></div>
+                                                Men's Fashion
+                                            </a>
+                                        </li>
+                                        <li> <!--6-->
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-user-5-line"></i></div>
+                                                Girl's Fashion
+                                            </a>
+                                        </li>
+                                        <li> <!--7-->
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-user-6-line"></i></div>
+                                                Boy's Fashion
+                                            </a>
+                                        </li>
+                                        <li> <!--8-->
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-home-8-line"></i></div>
+                                                Home & Kitchen
+                                            </a>
+                                        </li>
+                                        <li class="has-child homekit"> <!--9-->
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-heart-pulse-line"></i></div>
+                                                Health & Household
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <div class="mega"><!--9.1 subtitulo de submenu-->
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4><a href="#">Kitchen & Dinning</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Kitchen</a></li>
+                                                            <li><a href="#">Dinning room</a></li>
+                                                            <li><a href="#">Pantry</a></li>
+                                                            <li><a href="#">Great Room</a></li>
+                                                            <li><a href="#">Breakfast Nook</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="row">
+                                                        <h4><a href="#">Living</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">living Room</a></li>
+                                                            <li><a href="#">Family room</a></li>
+                                                            <li><a href="#">Sunroom</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>    
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4><a href="#">Bed & Bath</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Bathroom</a></li>
+                                                            <li><a href="#">Powder Room</a></li>
+                                                            <li><a href="#">Bedrrom</a></li>
+                                                            <li><a href="#">Storage & Closet</a></li>
+                                                            <li><a href="#">Baby & Kids</a></li>       
+                                                        </ul>
+                                                    </div>
+                                                    <div class="row">
+                                                        <h4><a href="#">Utility</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Laundry</a></li>
+                                                            <li><a href="#">Garage</a></li>
+                                                            <li><a href="#">Mudroom</a></li>      
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4><a href="#">Outdoor</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Landscape</a></li>
+                                                            <li><a href="#">Patio</a></li>
+                                                            <li><a href="#">Deck</a></li>
+                                                            <li><a href="#">Pool</a></li>
+                                                            <li><a href="#">Backyard</a></li>
+                                                            <li><a href="#">Porch</a></li>
+                                                            <li><a href="#">Exterior</a></li>
+                                                            <li><a href="#">Outdoor kitchen</a></li>
+                                                            <li><a href="#">Front Yard</a></li>
+                                                            <li><a href="#">Driveway</a></li>
+                                                            <li><a href="#">Poolhouse</a></li>        
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li> <!--10-->
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-android-line"></i></div>
+                                                Pet Supples
+                                            </a>
+                                        </li>
+                                        <li> <!--11-->
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-bear-smile-line"></i></div>
+                                                Sports
+                                            </a>
+                                        </li>
+                                        <li> <!--12-->
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-shield-star-line"></i></div>
+                                                Best Sellers
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right"> <!--barra de busqueda derecha-->
+                            <div class="search-box">
+                                <form action="" class="search">
+                                 <span class="icon-large"><i class="ri-search-line"></i></span>
+                                 <input type="search" placeholder="Search for products">
+                                 <button type="submit">Search</button>   
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header-main-->
+
+        </header>
+            <!--header-->
+
+        <main>
+            <div class="slider"> <!-- imagen de portada -->
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="myslider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"> <!--imagen portada 1-->
+                                    <div class="item">
+                                        <div class="image object-cover">
+                                            <img src="slider/slider0.jpg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Shoes Fashion</h4>
+                                            <h2><span>Come And Get It!</span><br><span>Brand New shoes</span></h2>
+                                            <a href="#" class="primary-button">Shop Now</a>
+                                        </div>    
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"> <!--imagen portada 2-->
+                                    <div class="item">
+                                        <div class="image object-cover">
+                                            <img src="slider/slider1.jpg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Quick Fashion</h4>
+                                            <h2><span>Fir Your Wardrove</span><br><span>With Luxury items</span></h2>
+                                            <a href="#" class="primary-button">Shop Now</a>
+                                        </div>    
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"> <!--imagen portada 3-->
+                                    <div class="item">
+                                        <div class="image object-cover">
+                                            <img src="slider/slider2.jpg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Quick Offer</h4>
+                                            <h2><span>Home Workout Accesories</span><br><span>Extra 50% Off</span></h2>
+                                            <a href="#" class="primary-button">Shop Now</a>
+                                        </div>    
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"> <!--imagen portada 4-->
+                                    <div class="item">
+                                        <div class="image object-cover">
+                                            <img src="slider/slider3.jpg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Best Deals</h4>
+                                            <h2><span>Home Workout Accesories</span><br><span>Push The Limit</span></h2>
+                                            <a href="#" class="primary-button">Shop Now</a>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Slider-->
+
+            <div class="brands"> <!--marcas logos-->
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="item"> <!--Zara-->
+                            <a href="#">
+                                <img src="brands/zara.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item"><!--Samsumg-->
+                            <a href="#">
+                                <img src="brands/samsung.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item"> <!--oppo-->
+                            <a href="#">
+                                <img src="brands/oppo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item"> <!--Asus-->
+                            <a href="#">
+                                <img src="brands/asus.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item"> <!--Hurey-->
+                            <a href="#">
+                                <img src="brands/hurley.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item"> <!--DNG-->
+                            <a href="#">
+                                <img src="brands/dng.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--brands-->
+
+           <div class="trending"> <!--tendencias y cards-->
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="sectop flexitem">
+                            <h2><span class="circle"></span><span>Trending Products</span></h2>
+                        </div>
+                        <div class="column">
+                            <div class="flexwrap">
+                                <div class="row products big">
+                                    <div class="item"> <!--oferta, media y demanda-->
+                                        <div class="offer"> <!--temporizador de ofertas-->
+                                            <p>Offer ends at</p>
+                                            <ul class="flexcenter">
+                                                <li>1</li>
+                                                <li>15</li>
+                                                <li>27</li>
+                                                <li>60</li>
+                                            </ul>
+                                        </div>
+                                        <div class="media"> <!--tiempo limitado-->
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="products/apparel4.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexenter"><span>31%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2,548)</span>
+                                            </div>
+                                            <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+                                            <div class="price">
+                                                <span class="current">$129.99</span>
+                                                <span class="normal mini-text">$189.98</span>
+                                            </div>
+                                            <div class="stock mini-text">
+                                                <div class="qty">
+                                                    <span>Stock: <strong class="qty-available">107</strong></span>
+                                                    <span>Sold: <strong class="qty-sold">3,459</strong></span>
+
+                                                </div>
+                                                <div class="bar">
+                                                    <div class="availale"></div> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row products mini"> <!--card 1-->
+                                    <div class="item"> 
+                                        <div class="media"> 
+                                            <div class="thumbnail object-cover">
+                                                <a href="#">
+                                                    <img src="products/apparel3.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexenter"><span>31%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2,548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">$129.99</span>
+                                                <span class="normal mini-text">$189.98</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2975 Sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item"> <!--card 2-->
+                                        <div class="media"> 
+                                            <div class="thumbnail object-cover">
+                                                <a href="#">
+                                                    <img src="products/apparel1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexenter"><span>31%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2,548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">$129.99</span>
+                                                <span class="normal mini-text">$189.98</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2975 Sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item"> <!--card 3-->
+                                        <div class="media"> 
+                                            <div class="thumbnail object-cover">
+                                                <a href="#">
+                                                    <img src="products/home1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexenter"><span>31%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(1,989)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">$469.99</span>
+                                                <span class="normal mini-text">$799.99</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2151 Sold</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item"> <!--card 4-->
+                                        <div class="media">
+                                            <div class="thumbnail object-cover">
+                                                <a href="#">
+                                                    <img src="products/electronic3.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexenter"><span>31%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2,548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">$129.99</span>
+                                                <span class="normal mini-text">$189.98</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2975 Sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row products mini"><!--card 5-->
+                                    <div class="item"> 
+                                        <div class="media">
+                                            <div class="thumbnail object-cover">
+                                                <a href="#">
+                                                    <img src="products/shoe1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexenter"><span>31%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2,548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">$129.99</span>
+                                                <span class="normal mini-text">$189.98</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2975 Sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item"> <!--card 6-->
+                                        <div class="media">
+                                            <div class="thumbnail object-cover">
+                                                <a href="#">
+                                                    <img src="products/apparel2.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexenter"><span>31%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2,548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">$129.99</span>
+                                                <span class="normal mini-text">$189.98</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2975 Sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item"> <!--card 7-->
+                                        <div class="media">
+                                            <div class="thumbnail object-cover">
+                                                <a href="#">
+                                                    <img src="products/home2.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexenter"><span>31%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="#">Dimable Celling Ligth Modern</a></h3>
+
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(643)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">$279.99</span>
+                                                <span class="normal mini-text">$499.99</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>995 Sold</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item"> <!--card 8-->
+                                        <div class="media">
+                                            <div class="thumbnail object-cover">
+                                                <a href="#">
+                                                    <img src="products/home3.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexenter"><span>31%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(758)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">$149.99</span>
+                                                <span class="normal mini-text">$389.99</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>995 Sold</p>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--trending-->
+
+        <div class="features">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="column">
+                        <div class="sectop flexitem">
+                            <h2><span class="circle"></span><span>Featured Produts</span></h2>
+                            <div class="second-links">
+                                <a href="#" class="view-all">View All<i class="ri-arrow-right-line"></i></a></div>
+                        </div>
+                        <div class="products main flexwrap"> 
+                            <div class="item"> <!--Featured cards 1-->
+                                <div class="media">
+                                    <div class="thumbnail object-cover">
+                                        <a href="#">
+                                            <img src="products/apparel1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="hoverable">
+                                        <ul>
+                                            <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                            <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                            <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="discount circle flexenter"><span>25%</span></div>
+                                </div>
+                                <div class="content">
+                                    <div class="rating">
+                                        <div class="stars"></div>
+                                        <span class="mini-text">(2,548)</span>
+                                    </div>
+                                    <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+                                    <div class="price">
+                                        <span class="current">$129.99</span>
+                                        <span class="normal mini-text">$189.98</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"> <!--Featured cards 2-->
+                                <div class="media">
+                                    <div class="thumbnail object-cover">
+                                        <a href="#">
+                                            <img src="products/apparel2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="hoverable">
+                                        <ul>
+                                            <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                            <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                            <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="discount circle flexenter"><span>25%</span></div>
+                                </div>
+                                <div class="content">
+                                    <div class="rating">
+                                        <div class="stars"></div>
+                                        <span class="mini-text">(2,548)</span>
+                                    </div>
+                                    <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+                                    <div class="price">
+                                        <span class="current">$129.99</span>
+                                        <span class="normal mini-text">$189.98</span>
+                                    </div>
+                                     <!--addtional structure-->
+                                     <div class="footer">
+                                        <ul class="mini-text">
+                                            <li>Polyester, Cotton</li>
+                                            <li>Pull On Closure</li>
+                                            <li>Fashion Personality</li>
+                                        </ul>
+                                     </div>
+                                </div>
+                            </div>
+                           
+                            <div class="item"> <!--Featured cards 3-->
+                                <div class="media">
+                                    <div class="thumbnail object-cover">
+                                        <a href="#">
+                                            <img src="products/apparel3.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="hoverable">
+                                        <ul>
+                                            <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                            <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                            <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="discount circle flexenter"><span>25%</span></div>
+                                </div>
+                                <div class="content">
+                                    <div class="rating">
+                                        <div class="stars"></div>
+                                        <span class="mini-text">(2,548)</span>
+                                    </div>
+                                    <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+                                    <div class="price">
+                                        <span class="current">$129.99</span>
+                                        <span class="normal mini-text">$189.98</span>
+                                    </div>
+                                    <div class="footer">
+                                        <ul class="mini-text">
+                                            <li>Polyester, Cotton</li>
+                                            <li>Pull On Closure</li>
+                                            <li>Fashion Personality</li>
+                                        </ul>
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="item"> <!--Featured cards 4-->
+                                <div class="media">
+                                    <div class="thumbnail object-cover">
+                                        <a href="#">
+                                            <img src="products/shoe2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="hoverable">
+                                        <ul>
+                                            <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                            <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                            <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="discount circle flexenter"><span>25%</span></div>
+                                </div>
+                                <div class="content">
+                                    <div class="rating">
+                                        <div class="stars"></div>
+                                        <span class="mini-text">(2,548)</span>
+                                    </div>
+                                    <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+                                    <div class="price">
+                                        <span class="current">$129.99</span>
+                                        <span class="normal mini-text">$189.98</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"> <!--Featured cards 5-->
+                                <div class="media">
+                                    <div class="thumbnail object-cover">
+                                        <a href="#">
+                                            <img src="products/shoe3.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="hoverable">
+                                        <ul>
+                                            <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                            <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                            <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="discount circle flexenter"><span>25%</span></div>
+                                </div>
+                                <div class="content">
+                                    <div class="rating">
+                                        <div class="stars"></div>
+                                        <span class="mini-text">(2,548)</span>
+                                    </div>
+                                    <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+                                    <div class="price">
+                                        <span class="current">$129.99</span>
+                                        <span class="normal mini-text">$189.98</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"> <!--Featured cards 6-->
+                                <div class="media">
+                                    <div class="thumbnail object-cover">
+                                        <a href="#">
+                                            <img src="products/shoe4.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="hoverable">
+                                        <ul>
+                                            <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                            <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                            <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="discount circle flexenter"><span>25%</span></div>
+                                </div>
+                                <div class="content">
+                                    <div class="rating">
+                                        <div class="stars"></div>
+                                        <span class="mini-text">(2,548)</span>
+                                    </div>
+                                    <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+                                    <div class="price">
+                                        <span class="current">$129.99</span>
+                                        <span class="normal mini-text">$189.98</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"> <!--Featured cards 7-->
+                                <div class="media">
+                                    <div class="thumbnail object-cover">
+                                        <a href="#">
+                                            <img src="products/shoe5.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="hoverable">
+                                        <ul>
+                                            <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                            <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                            <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="discount circle flexenter"><span>25%</span></div>
+                                </div>
+                                <div class="content">
+                                    <div class="rating">
+                                        <div class="stars"></div>
+                                        <span class="mini-text">(2,548)</span>
+                                    </div>
+                                    <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+                                    <div class="price">
+                                        <span class="current">$129.99</span>
+                                        <span class="normal mini-text">$189.98</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"> <!--Featured cards 8-->
+                                <div class="media">
+                                    <div class="thumbnail object-cover">
+                                        <a href="#">
+                                            <img src="products/shoe1-2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="hoverable">
+                                        <ul>
+                                            <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                            <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                            <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="discount circle flexenter"><span>25%</span></div>
+                                </div>
+                                <div class="content">
+                                    <div class="rating">
+                                        <div class="stars"></div>
+                                        <span class="mini-text">(2,548)</span>
+                                    </div>
+                                    <h3 class="main-links"><a href="#">Happy Sailed Womnens summer Boho Floral</a></h3>
+                                    <div class="price">
+                                        <span class="current">$129.99</span>
+                                        <span class="normal mini-text">$189.98</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Features-->
+
+        <div class="banners">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="column">
+                        <div class="banner flexwrap">
+                            <div class="row"> <!--banner 1-->
+                                <div class="item">
+                                    <div class="image">
+                                        <img src="banner/banner1.jpg" alt="">
+                                    </div>
+                                    <div class="text-content flexcol">
+                                        <h4>Oferton de Hoy!</h4>
+                                        <h3><span>Obten el mejor precio!</span><br>Sofa de Sala</h3>
+                                        <a href="#" class="primary-button">Ordena Aqui</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row"> <!--banner 2-->
+                                <div class="item get-gray">
+                                    <div class="image">
+                                        <img src="banner/banner2.jpg" alt="">
+                                    </div>
+                                    <div class="text-content flexcol">
+                                        <h4>A la oficina con el mejor look!</h4>
+                                        <h3><span>Obten el mejor precio!</span><br>Trajes de Oficina</h3>
+                                        <a href="#" class="primary-button">Ordena Aqui</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--banners-->
+                        <div class="product-categories flexwrap">
+                            <div class="row">
+                                <div class="item">
+                                    <div class="image">
+                                        <img src="banner/procat1.jpg" alt="">
+                                    </div>
+                                    <div class="content mini-links">
+                                        <h4>Belleza</h4>
+                                        <ul class="flexcol">
+                                            <li><a href="#">Makeup</a></li>
+                                            <li><a href="#">Skin Care</a></li>
+                                            <li><a href="#">Hair Care</a></li>
+                                            <li><a href="#">Fragrance</a></li>
+                                            <li><a href="#">Foot & Hand Care</a></li>
+                                        </ul>
+                                        <div class="second-links">
+                                            <a href="" class="view-all">View All<i class="ri-arrow-right-line"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="item">
+                                    <div class="image">
+                                        <img src="banner/procat2.jpg" alt="">
+                                    </div>
+                                    <div class="content mini-links">
+                                        <h4>electronicos</h4>
+                                        <ul class="flexcol">
+                                            <li><a href="#">Camera</a></li>
+                                            <li><a href="#">Cell Phones</a></li>
+                                            <li><a href="#">Computers</a></li>
+                                            <li><a href="#">GPS & Navigation</a></li>
+                                            <li><a href="#">Headphones</a></li>
+                                        </ul>
+                                        <div class="second-links">
+                                            <a href="" class="view-all">View All<i class="ri-arrow-right-line"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        
+                            <div class="row">
+                                <div class="item">
+                                    <div class="image">
+                                        <img src="banner/procat3.jpg" alt="">
+                                    </div>
+                                    <div class="content mini-links">
+                                        <h4>Jardines</h4>
+                                        <ul class="flexcol">
+                                            <li><a href="#">Landscape</a></li>
+                                            <li><a href="#">Patio</a></li>
+                                            <li><a href="#">Deck</a></li>
+                                            <li><a href="#">Pool</a></li>
+                                            <li><a href="#">Backyard</a></li>
+                                        </ul>
+                                        <div class="second-links">
+                                            <a href="" class="view-all">View All<i class="ri-arrow-right-line"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </main>
+            <!--main-->
+
+        <footer>
+            <div class="newletter">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="box">
+                            <div class="content">
+                                <h3>Enterate delas ultimas noticias</h3>
+                                <p>Ingresa tu E-mail y recibe las ultimas novedades <strong>Ofertas especiales</strong></p>
+                            </div>
+                            <form action="" class="search">
+                                <span class="icon-large"><i class="ri-mail-line"></i></span>
+                                <input type="mail" placeholder="Tu correo electronico">
+                                <button type="submit">Ingresar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--newletter-->
+
+            <div class="widgets">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flexwrap">
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Ayuda & Contactos</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">tu cuenta</a></li>
+                                        <li><a href="#">tus pedidos</a></li>
+                                        <li><a href="#">calificaciones</a></li>
+                                        <li><a href="#">asistencia</a></li>
+                                        <li><a href="#">returns"</a></li>
+                                        <li><a href="#">Ayuda</a></li>
+                                        <li><a href="#">contacto</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Product categories</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Belleza</a></li>
+                                        <li><a href="#">electronica</a></li>
+                                        <li><a href="#">Moda Femenina</a></li>
+                                        <li><a href="#">Moda para ninas</a></li>
+                                        <li><a href="#">Moda para ninos</a></li>
+                                        <li><a href="#">Salud y Cuidados</a></li>
+                                        <li><a href="#">Hogar y cocina</a></li>
+                                        <li><a href="#">Mascotas</a></li>
+                                        <li><a href="#">Deportes</a></li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Metodos de Pago</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Tarjeta debito</a></li>
+                                        <li><a href="#">Codigo Qr</a></li>
+                                        <li><a href="#">Tarjeta de Credito</a></li>
+                                        <li><a href="#">Paypal</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Acerca de Nosotros</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="">informacion</a></li>
+                                        <li><a href="">noticias</a></li>
+                                        <li><a href="">inversores</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--widgets-->
+            <div class="footer-info">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flexcol">
+                            <div class="logo">
+                               <a href=""><span class="circle">.TrustMarket</span>
+                               </a> 
+                            </div>
+                            <div class="socials">
+                                <ul class="flexitem">
+                                    <li><a href="#" class="ri-facebook-line"></a></li>
+                                    <li><a href="#" class="ri-instagram-line"></a></li>
+                                    <li><a href="#" class="ri-twitter-line"></a></li>
+                                    <li><a href="#" class="ri-youtube-line"></a></li>
+                                    <li><a href="#" class="ri-linkedin-line"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="mini-text">Copyright2024.TrustMarket. All right reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--footer-->
+        <div class="menu bottom desktop hide">
+            <div class="container">
+                <div class="wrapper">
+                    <nav>
+                        <ul class="flexitem">
+                            <li>
+                                <a href="#">
+                                    <i class="ri-bar-chart-line"></i>
+                                    <span>Trending</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ri-user-6-line"></i>
+                                    <span>Account</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ri-heart-line"></i>
+                                    <span>WishList</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#0" class="t-search">
+                                    <i class="ri-search-line"></i>
+                                    <span>Search</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#0">
+                                    <i class="ri-shopping-cart-line"></i>
+                                    <span>Cart</span>
+                                    <div class="fly-item">
+                                        <span class="item-number">0</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!--menu bottom-->
+
+        <div class="search bottom desktop-hide">
+            <div class="container">
+                <div class="wrapper">
+
+                    <form action="" class="search">
+                        <a href="#" class="t-close search-clone flexcenter"><i class="ri-close-line"></i></a>
+                        <span class="icon-large"><i class="ri-search-line"></i></span>
+                        <input type="search" placeholder="your email address" required>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--search-bottom-->
+
+        <div class="overlay"></div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</HTMl>
